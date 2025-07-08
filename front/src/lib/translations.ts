@@ -1,3 +1,4 @@
+
 export const translations = {
     en: {
       nav: {
@@ -17,18 +18,23 @@ export const translations = {
         featured: "Featured Products",
         featuredDescription: "Explore our most popular and innovative hardware solutions",
         viewAll: "View All Products",
+        title: "Our Products",
+        description: "Discover our complete range of high-quality hardware products",
       },
       product: {
         description: "Description",
-        addToCart: "Add to Cart",
+        addToCart: "Place Order",
         freeShipping: "Free Shipping",
         freeShippingDesc: "On orders over $50",
         warranty: "2 Year Warranty",
         warrantyDesc: "Full coverage",
         returns: "Easy Returns",
         returnsDesc: "30-day policy",
+        view: "View details",
       },
       about: {
+        firsttitle: "About EMM",
+        firstdescription: "Learn more about our company, our mission, and what makes us your trusted hardware partner.",
         title: "Why Choose EMM Hardware?",
         subtitle:
           "We are committed to providing the highest quality hardware products with exceptional customer service.",
@@ -50,6 +56,9 @@ export const translations = {
         },
       },
       contact: {
+        firsttitle: "Contact Us",
+        firstdescription:"Get in touch with our team for questions, support, or purchases",
+        subtitle:"Get in Touch",
         title: "Send us a Message",
         name: "Full Name",
         namePlaceholder: "Enter your full name",
@@ -66,6 +75,11 @@ export const translations = {
         success: "Message Sent!",
         successMessage: "Thank you for contacting us. We'll get back to you within 24 hours.",
         sendAnother: "Send Another Message",
+        boxtitle: "Why Contact Us?",
+        firstpoint: "Product inquiries and recommendations",
+        secondpoint: "Technical support and assistance",
+        thirdpoint: "Bulk orders and custom solutions",
+        fourthpoint: "General questions about our services",
       },
       footer: {
         description: "Your trusted partner for premium hardware solutions.",
@@ -74,6 +88,7 @@ export const translations = {
         newsletter: "Newsletter",
         newsletterDesc: "Subscribe to get updates on new products and offers.",
         rights: "All rights reserved.",
+        road: "Gabes Road Km 6 - Sfax",
       },
     },
     fr: {
@@ -94,18 +109,23 @@ export const translations = {
         featured: "Produits Vedettes",
         featuredDescription: "Explorez nos solutions matérielles les plus populaires et innovantes",
         viewAll: "Voir Tous les Produits",
+        title: "Nos produits",
+        description: "Découvrez notre gamme complète de produits de quincaillerie de haute qualité",
       },
       product: {
         description: "Description",
-        addToCart: "Ajouter au Panier",
+        addToCart: "Commander",
         freeShipping: "Livraison Gratuite",
         freeShippingDesc: "Sur commandes de plus de 50$",
         warranty: "Garantie 2 Ans",
         warrantyDesc: "Couverture complète",
         returns: "Retours Faciles",
         returnsDesc: "Politique de 30 jours",
+        view: "Voir les détails",
       },
       about: {
+        firsttitle: "À propos de EMM",
+        firstdescription: "Découvrez plus sur notre entreprise, notre mission et ce qui rend notre partenaire de confiance matériel.",
         title: "Pourquoi Choisir EMM Hardware?",
         subtitle:
           "Nous nous engageons à fournir des produits matériels de la plus haute qualité avec un service client exceptionnel.",
@@ -128,6 +148,9 @@ export const translations = {
         },
       },
       contact: {
+        firsttitle: "Contactez-nous",
+        firstdescription:"Contactez notre équipe pour des questions, de l'assistance ou des achats",
+        subtitle:"Contactez-nous",
         title: "Envoyez-nous un Message",
         name: "Nom Complet",
         namePlaceholder: "Entrez votre nom complet",
@@ -144,6 +167,11 @@ export const translations = {
         success: "Message Envoyé!",
         successMessage: "Merci de nous avoir contactés. Nous vous répondrons dans les 24 heures.",
         sendAnother: "Envoyer un Autre Message",
+        boxtitle: "Pourquoi nous contacter?",
+        firstpoint: "Demandes et recommandations de produits",
+        secondpoint: "Support et assistance technique",
+        thirdpoint: "Commandes groupées et solutions personnalisées",
+        fourthpoint: "Questions générales sur nos services",
       },
       footer: {
         description: "Votre partenaire de confiance pour les solutions matérielles premium.",
@@ -152,6 +180,7 @@ export const translations = {
         newsletter: "Newsletter",
         newsletterDesc: "Abonnez-vous pour recevoir des mises à jour sur les nouveaux produits et offres.",
         rights: "Tous droits réservés.",
+        road: "Route de gabes Km 6 - sfax",
       },
     },
   }

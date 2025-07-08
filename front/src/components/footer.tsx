@@ -1,4 +1,4 @@
-"use client"
+
 
 import { Link } from "react-router-dom"
 import { Wrench, Mail, Phone, MapPin } from "lucide-react"
@@ -45,15 +45,15 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@emm-hardware.com</span>
+                <span>emmsfax@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+(216) 98 241 790</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4" />
-                <span>123 Hardware St, Tech City</span>
+                <span>{t.footer.road}</span>
               </div>
             </div>
           </div>

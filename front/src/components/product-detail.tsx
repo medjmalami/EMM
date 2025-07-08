@@ -5,8 +5,9 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import { useLanguage } from "@/contexts/language-context"
-import { ShoppingCart, Star, Truck, Shield, RotateCcw } from "lucide-react"
+import { Star, Truck, Shield, RotateCcw } from "lucide-react"
 import type { Product } from "@/lib/products-data"
+import { Link } from "react-router-dom"
 
 interface ProductDetailProps {
   product: Product
@@ -52,8 +53,8 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
         <div className="space-y-4">
           <Button size="lg" className="w-full">
-            <ShoppingCart className="mr-2 h-5 w-5" />
-            {t.product.addToCart}
+            <Link to={'/contact'}>{t.product.addToCart}</Link>
+            
           </Button>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

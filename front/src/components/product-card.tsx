@@ -1,4 +1,3 @@
-"use client"
 
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -12,7 +11,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product }: ProductCardProps) {
-  const { language } = useLanguage()
+  const { language, t } = useLanguage()
 
   const name = language === "fr" ? product.name.fr : product.name.en
   const description = language === "fr" ? product.description.fr : product.description.en
@@ -35,7 +34,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="flex items-center justify-between w-full">
           <span className="text-2xl font-bold text-primary">${product.price}</span>
           <Button asChild size="sm">
-            <Link to={`/products/${product.id}`}>View Details</Link>
+            <Link to={`/products/${product.id}`}>{t.product.view}</Link>
           </Button>
         </div>
       </CardFooter>

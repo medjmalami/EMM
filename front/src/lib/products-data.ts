@@ -28,7 +28,7 @@ export interface Product {
       price: 149.99,
       image: "/placeholder.svg?height=400&width=400",
       category: "Power Tools",
-      isNew: true,
+      isNew: false,
     },
     {
       id: "wrench-set-metric",
@@ -85,7 +85,7 @@ export interface Product {
       price: 199.99,
       image: "/placeholder.svg?height=400&width=400",
       category: "Measuring Tools",
-      isNew: true,
+      isNew: false,
     },
     {
       id: "pliers-set-professional",
@@ -142,7 +142,7 @@ export interface Product {
       price: 179.99,
       image: "/placeholder.svg?height=400&width=400",
       category: "Power Tools",
-      isNew: true,
+      isNew: false,
     },
     {
       id: "toolbox-mobile-pro",
