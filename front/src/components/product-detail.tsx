@@ -41,7 +41,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
             </div>
             <span className="text-sm text-muted-foreground">(4.0)</span>
           </div>
-          <p className="text-3xl font-bold text-primary mb-4">${product.price}</p>
         </div>
 
         <Separator />
