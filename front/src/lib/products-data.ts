@@ -107,7 +107,6 @@ export interface Product {
       image: "/corner4holes.jpg?height=400&width=400",
       category: "Hand Tools",
     },
-    
     {
       id: "corner-brace5",
       name: {
@@ -121,33 +120,18 @@ export interface Product {
       image: "/corner5holes.png?height=400&width=400",
       category: "Socket Tools",
     },
-
     {
-      id: "saw-circular-cordless",
+      id: "corner-brace6",
       name: {
-        en: "Cordless Circular Saw",
-        fr: "Scie Circulaire Sans Fil",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
-        en: "20V cordless circular saw with 6.5-inch blade. LED light and laser guide for precise cuts. Battery included.",
-        fr: "Scie circulaire sans fil 20V avec lame de 6,5 pouces. Éclairage LED et guide laser pour des coupes précises. Batterie incluse.",
+        en: "42-piece socket set with both metric and imperial sizes. Includes ratchet handle and extension bars.",
+        fr: "Ensemble de 42 douilles avec tailles métriques et impériales. Comprend poignée à cliquet et barres d'extension.",
       },
-      image: "/placeholder.svg?height=400&width=400",
-      category: "Power Tools",
-      isNew: false,
-    },
-    {
-      id: "toolbox-mobile-pro",
-      name: {
-        en: "Mobile Pro Toolbox",
-        fr: "Boîte à Outils Mobile Pro",
-      },
-      description: {
-        en: "Heavy-duty mobile toolbox with multiple drawers and compartments. Weather-resistant with secure locking system.",
-        fr: "Boîte à outils mobile robuste avec plusieurs tiroirs et compartiments. Résistante aux intempéries avec système de verrouillage sécurisé.",
-      },
-      image: "/placeholder.svg?height=400&width=400",
-      category: "Storage",
+      image: "/corner5holes.png?height=400&width=400",
+      category: "Socket Tools",
     },
   ]
   
