@@ -15,96 +15,96 @@ export interface Product {
   
   export const products: Product[] = [
     {
-      id: "drill-set-pro",
+      id: "corner-brace1",
       name: {
-        en: "Professional Drill Set",
-        fr: "Ensemble de Perceuses Professionnel",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
         en: "Complete 18V cordless drill set with multiple bits and carrying case. Perfect for professional and home use.",
         fr: "Ensemble de perceuse sans fil 18V complet avec plusieurs mèches et étui de transport. Parfait pour un usage professionnel et domestique.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/corner2holes.png?height=400&width=400",
       category: "Power Tools",
       isNew: false,
     },
     {
-      id: "wrench-set-metric",
+      id: "corner-brace2",
       name: {
-        en: "Metric Wrench Set",
-        fr: "Ensemble de Clés Métriques",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
         en: "High-quality chrome vanadium steel wrench set with sizes from 8mm to 24mm. Includes storage rack.",
         fr: "Ensemble de clés en acier chrome vanadium de haute qualité avec des tailles de 8mm à 24mm. Comprend un support de rangement.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/corner2holes.webp?height=400&width=400",
       category: "Hand Tools",
     },
     {
-      id: "screwdriver-precision",
+      id: "corner-brace3",
       name: {
-        en: "Precision Screwdriver Kit",
-        fr: "Kit de Tournevis de Précision",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
         en: "32-piece precision screwdriver set for electronics, watches, and small appliances. Magnetic tips included.",
         fr: "Ensemble de 32 tournevis de précision pour l'électronique, les montres et les petits appareils. Pointes magnétiques incluses.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/corner3holes.jpg?height=400&width=400",
       category: "Precision Tools",
     },
     {
-      id: "hammer-claw-steel",
+      id: "corner-brace4",
       name: {
-        en: "Steel Claw Hammer",
-        fr: "Marteau à Griffe en Acier",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
         en: "16oz steel claw hammer with ergonomic grip handle. Perfect balance for framing and general construction.",
         fr: "Marteau à griffe en acier de 16oz avec poignée ergonomique. Équilibre parfait pour l'encadrement et la construction générale.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/corner4holes.jpg?height=400&width=400",
       category: "Hand Tools",
     },
     {
       id: "level-laser-digital",
       name: {
-        en: "Digital Laser Level",
-        fr: "Niveau Laser Numérique",
+        en: "High security lock with rod",
+        fr: "Serrure a haute sécurité avec tige",
       },
       description: {
         en: "Self-leveling laser level with digital display. 30m range with accuracy of ±1mm. Includes tripod mount.",
         fr: "Niveau laser auto-nivelant avec affichage numérique. Portée de 30m avec précision de ±1mm. Comprend un support de trépied.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/blokus.png?height=400&width=400",
       category: "Measuring Tools",
       isNew: false,
     },
     {
-      id: "pliers-set-professional",
+      id: "lock",
       name: {
-        en: "Professional Pliers Set",
-        fr: "Ensemble de Pinces Professionnel",
+        en: "High security lock without rod",
+        fr: "Serrure a haute sécurité sans tige",
       },
       description: {
         en: "4-piece professional pliers set including needle nose, standard, wire cutters, and locking pliers.",
         fr: "Ensemble de 4 pinces professionnelles comprenant bec effilé, standard, coupe-fil et pinces de verrouillage.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/blokusSansTige.png?height=400&width=400",
       category: "Hand Tools",
     },
     {
-      id: "socket-set-universal",
+      id: "corner-brace5",
       name: {
-        en: "Universal Socket Set",
-        fr: "Ensemble de Douilles Universel",
+        en: "Corner Brace",
+        fr: "Renfort d'angle",
       },
       description: {
         en: "42-piece socket set with both metric and imperial sizes. Includes ratchet handle and extension bars.",
         fr: "Ensemble de 42 douilles avec tailles métriques et impériales. Comprend poignée à cliquet et barres d'extension.",
       },
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/corner5holes.png?height=400&width=400",
       category: "Socket Tools",
     },
     {

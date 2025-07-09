@@ -1,4 +1,3 @@
-"use client"
 
 import { useParams, Navigate } from "react-router-dom"
 import { useScrollToTop } from "@/hooks/useScrollToTop"
