@@ -15,6 +15,46 @@ export interface Product {
   
   export const products: Product[] = [
     {
+      id: "level-laser-digital",
+      name: {
+        en: "High security lock with rod",
+        fr: "Serrure a haute sécurité avec tige",
+      },
+      description: {
+        en: "Self-leveling laser level with digital display. 30m range with accuracy of ±1mm. Includes tripod mount.",
+        fr: "Niveau laser auto-nivelant avec affichage numérique. Portée de 30m avec précision de ±1mm. Comprend un support de trépied.",
+      },
+      image: "/blokus.png?height=400&width=400",
+      category: "Measuring Tools",
+      isNew: false,
+    },
+    {
+      id: "lock",
+      name: {
+        en: "High security lock without rod",
+        fr: "Serrure a haute sécurité sans tige",
+      },
+      description: {
+        en: "4-piece professional pliers set including needle nose, standard, wire cutters, and locking pliers.",
+        fr: "Ensemble de 4 pinces professionnelles comprenant bec effilé, standard, coupe-fil et pinces de verrouillage.",
+      },
+      image: "/blokusSansTige.png?height=400&width=400",
+      category: "Hand Tools",
+    },
+    {
+      id: "verrous",
+      name: {
+        en: "Locks",
+        fr: "Verrous",
+      },
+      description: {
+        en: "Professional digital multimeter with auto-ranging, true RMS, and data logging capabilities. Safety rated CAT III.",
+        fr: "Multimètre numérique professionnel avec gamme automatique, RMS vraie et capacités d'enregistrement de données. Classé sécurité CAT III.",
+      },
+      image: "/verrous.png?height=400&width=400",
+      category: "Electrical Tools",
+    },
+    {
       id: "corner-brace1",
       name: {
         en: "Corner Brace",
@@ -67,33 +107,7 @@ export interface Product {
       image: "/corner4holes.jpg?height=400&width=400",
       category: "Hand Tools",
     },
-    {
-      id: "level-laser-digital",
-      name: {
-        en: "High security lock with rod",
-        fr: "Serrure a haute sécurité avec tige",
-      },
-      description: {
-        en: "Self-leveling laser level with digital display. 30m range with accuracy of ±1mm. Includes tripod mount.",
-        fr: "Niveau laser auto-nivelant avec affichage numérique. Portée de 30m avec précision de ±1mm. Comprend un support de trépied.",
-      },
-      image: "/blokus.png?height=400&width=400",
-      category: "Measuring Tools",
-      isNew: false,
-    },
-    {
-      id: "lock",
-      name: {
-        en: "High security lock without rod",
-        fr: "Serrure a haute sécurité sans tige",
-      },
-      description: {
-        en: "4-piece professional pliers set including needle nose, standard, wire cutters, and locking pliers.",
-        fr: "Ensemble de 4 pinces professionnelles comprenant bec effilé, standard, coupe-fil et pinces de verrouillage.",
-      },
-      image: "/blokusSansTige.png?height=400&width=400",
-      category: "Hand Tools",
-    },
+    
     {
       id: "corner-brace5",
       name: {
@@ -107,19 +121,7 @@ export interface Product {
       image: "/corner5holes.png?height=400&width=400",
       category: "Socket Tools",
     },
-    {
-      id: "multimeter-digital-pro",
-      name: {
-        en: "Digital Pro Multimeter",
-        fr: "Multimètre Numérique Pro",
-      },
-      description: {
-        en: "Professional digital multimeter with auto-ranging, true RMS, and data logging capabilities. Safety rated CAT III.",
-        fr: "Multimètre numérique professionnel avec gamme automatique, RMS vraie et capacités d'enregistrement de données. Classé sécurité CAT III.",
-      },
-      image: "/placeholder.svg?height=400&width=400",
-      category: "Electrical Tools",
-    },
+
     {
       id: "saw-circular-cordless",
       name: {
