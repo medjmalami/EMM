@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import { Menu, Wrench } from "lucide-react"
+import { Menu} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { ThemeToggle } from "@/components/theme-toggle"
@@ -32,8 +32,13 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Wrench className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">EMM</span>
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="rounded-md"
+              width={80}
+              height={80}
+            />
           </Link>
 
           {/* Desktop Navigation */}
