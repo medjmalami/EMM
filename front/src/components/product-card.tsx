@@ -20,11 +20,29 @@ export function ProductCard({ product }: ProductCardProps) {
     <Card className="group hover:shadow-lg transition-shadow duration-300">
       <CardContent className="p-0">
         <div className="relative aspect-square overflow-hidden rounded-t-lg">
-          <img
-            src={product.image || "/placeholder.svg"}
-            alt={name}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-          />
+          {
+            product.image && (
+              <>
+                <img
+                src={product.image}
+                alt={name}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </>
+
+            )
+          }
+          {
+            product.images && (
+              <>
+                <img
+                src={product.images[0]}
+                alt={name}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </>
+            )
+          }
           {product.isNew && <Badge className="absolute top-2 left-2">New</Badge>}
         </div>
       </CardContent>
