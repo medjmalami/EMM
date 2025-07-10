@@ -15,7 +15,7 @@ export interface Product {
   
   export const products: Product[] = [
     {
-      id: "level-laser-digital",
+      id: "lock-with-rod",
       name: {
         en: "High security lock with rod",
         fr: "Serrure a haute sécurité avec tige",
@@ -25,7 +25,7 @@ export interface Product {
         fr: "Niveau laser auto-nivelant avec affichage numérique. Portée de 30m avec précision de ±1mm. Comprend un support de trépied.",
       },
       image: "/blokus.png?height=400&width=400",
-      category: "Measuring Tools",
+      category: "locks",
       isNew: false,
     },
     {
@@ -39,7 +39,7 @@ export interface Product {
         fr: "Ensemble de 4 pinces professionnelles comprenant bec effilé, standard, coupe-fil et pinces de verrouillage.",
       },
       image: "/blokusSansTige.png?height=400&width=400",
-      category: "Hand Tools",
+      category: "locks",
     },
     {
       id: "verrous",
@@ -52,7 +52,7 @@ export interface Product {
         fr: "Multimètre numérique professionnel avec gamme automatique, RMS vraie et capacités d'enregistrement de données. Classé sécurité CAT III.",
       },
       image: "/verrous.png?height=400&width=400",
-      category: "Electrical Tools",
+      category: "locks",
     },
     {
       id: "corner-brace1",
@@ -65,7 +65,7 @@ export interface Product {
         fr: "Ensemble de perceuse sans fil 18V complet avec plusieurs mèches et étui de transport. Parfait pour un usage professionnel et domestique.",
       },
       image: "/corner2holes.png?height=400&width=400",
-      category: "Power Tools",
+      category: "Tools",
       isNew: false,
     },
     {
@@ -79,7 +79,7 @@ export interface Product {
         fr: "Ensemble de clés en acier chrome vanadium de haute qualité avec des tailles de 8mm à 24mm. Comprend un support de rangement.",
       },
       image: "/corner2holes.webp?height=400&width=400",
-      category: "Hand Tools",
+      category: "Tools",
     },
     {
       id: "corner-brace3",
@@ -92,7 +92,7 @@ export interface Product {
         fr: "Ensemble de 32 tournevis de précision pour l'électronique, les montres et les petits appareils. Pointes magnétiques incluses.",
       },
       image: "/corner3holes.jpg?height=400&width=400",
-      category: "Precision Tools",
+      category: "Tools",
     },
     {
       id: "corner-brace4",
@@ -105,7 +105,7 @@ export interface Product {
         fr: "Marteau à griffe en acier de 16oz avec poignée ergonomique. Équilibre parfait pour l'encadrement et la construction générale.",
       },
       image: "/corner4holes.jpg?height=400&width=400",
-      category: "Hand Tools",
+      category: "Tools",
     },
     {
       id: "corner-brace5",
@@ -118,7 +118,7 @@ export interface Product {
         fr: "Ensemble de 42 douilles avec tailles métriques et impériales. Comprend poignée à cliquet et barres d'extension.",
       },
       image: "/corner5holes.png?height=400&width=400",
-      category: "Socket Tools",
+      category: "Tools",
     },
     {
       id: "corner-brace6",
@@ -131,7 +131,7 @@ export interface Product {
         fr: "Ensemble de 42 douilles avec tailles métriques et impériales. Comprend poignée à cliquet et barres d'extension.",
       },
       image: "/corner5holes.png?height=400&width=400",
-      category: "Socket Tools",
+      category: "Tools",
     },
   ]
   
