@@ -134,7 +134,9 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
         <div>
           <h3 className="font-semibold mb-2">{t.product.description}</h3>
-          <p className="text-muted-foreground">{description}</p>
+          <p className="text-muted-foreground">{description.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)}</p>
+
+          
         </div>
 
         <div className="space-y-4">

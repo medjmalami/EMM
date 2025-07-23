@@ -1,7 +1,7 @@
 
 
 import { Link } from "react-router-dom"
-import { Wrench, Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function Footer() {
@@ -14,8 +14,15 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Wrench className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold">EMM</span>
+              <Link to="/" className="flex items-center space-x-2">
+              <img
+                src="/logo.png"
+                alt="Logo"
+                className="rounded-md"
+                width={120}
+                height={120}
+              />
+            </Link>
             </div>
             <p className="text-muted-foreground">{t.footer.description}</p>
           </div>
