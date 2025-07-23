@@ -19,8 +19,8 @@ export function Footer() {
                 src="/logo.png"
                 alt="Logo"
                 className="rounded-md"
-                width={120}
-                height={120}
+                width={80}
+                height={80}
               />
             </Link>
             </div>
