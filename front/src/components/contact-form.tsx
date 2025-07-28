@@ -24,7 +24,7 @@ export function ContactForm() {
     try {
       // Using formsubmit.co - Note: This service has HTTPS security concerns
       // Alternative: You could use a server action or other form service
-      const response = await fetch("https://formsubmit.co/emm.sfax@gmail.com", {
+      const response = await fetch("https://formsubmit.co/emm.sfax.command.comerce@gmail.com", {
         method: "POST",
         body: formData,
       })
